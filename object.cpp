@@ -110,7 +110,7 @@ int main() {
     geil->set_stamina(100);
     geil->set_attack_damage(100);
 
-    // You might want to add some interactions between the characters here
+    
 
     delete golden_freeman;
     delete headcrab;
