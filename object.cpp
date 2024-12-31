@@ -110,7 +110,7 @@ int main() {
     geil->set_stamina(100);
     geil->set_attack_damage(100);
 
-    
+
 
     delete golden_freeman;
     delete headcrab;
