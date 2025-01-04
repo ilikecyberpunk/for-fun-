@@ -1,0 +1,38 @@
+# 내 성적 조회하기
+import pyautogui
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+
+GG = webdriver.Chrome()
+GG.get('https://google.co.kr')
+GG.fullscreen_window()
+pyautogui.moveTo(959, 566)
+pyautogui.click()
+pyautogui.write("https://onestop.kumoh.ac.kr/html/WebcreaMDI-OneStop.jsp?v=20250104040145")
+pyautogui.press('Enter')
+pyautogui.moveTo(175, 467, 0.25)
+pyautogui.doubleClick()
+time.sleep(10)
+pyautogui.moveTo(249, 583)
+pyautogui.click()
+pyautogui.write('아이디')
+pyautogui.moveTo(320, 642)
+pyautogui.click()
+pyautogui.write('비번')
+pyautogui.moveTo(480, 618)
+pyautogui.click()
+time.sleep(7)
+pyautogui.moveTo(199, 460, 0.2)
+pyautogui.click()
+pyautogui.moveTo(208, 548, 0.2)
+pyautogui.click()
+pyautogui.moveTo(272, 737, 0.2)
+pyautogui.click()
+time.sleep(3)
+pyautogui.moveTo(546, 1169, 0.2)
+pyautogui.mouseDown()
+pyautogui.moveTo(1186, 1168, 0.2)
+pyautogui.mouseUp()
+pyautogui.moveTo(1139, 551)
+pyautogui.doubleClick()
