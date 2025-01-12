@@ -91,7 +91,7 @@ class combine : public basic_character {
     }
 
     ~combine() {
-        cout << "betrayer !!" << endl;
+        cout << " !!" << endl;
     }
 };
 
