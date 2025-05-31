@@ -1,0 +1,504 @@
+
+
+ASUS@DESKTOP-5BU2EUV MINGW64 /c/LinuxPractice (master)
+$ history
+   35  mkdir n
+   36  cd c:/n
+   37  git init
+   38  git pull https://github.com/ilikecyberpunk/n-Repository1.git
+   39  ls
+   40  nano
+   41  git add 새파일
+   42  git commit
+   43  git push
+   44  git remote https://github.com/sehun0919/n-Repository1.git
+   45  git remote https://github.com/sehun0919/n-Repository1.git
+   46  git remote add https://github.com/sehun0919/n-Repository1.git
+   47  ls
+   48  git push
+   49  git remote add 새파일 https://github.com/sehun0919/n-Repository1.git
+   50  ls
+   51  git push
+   52  git push --set-upstreamn 새파일 master
+   53  git push --set-upstream 새파일 master
+   54  git remote add git push --set-upstreamn 새파일 master
+   55  git remote add https://github.com/ilikecyberpunk/n-Repository1.git
+   56  git remote add 새파일 https://github.com/ilikecyberpunk/n-Repository1.git
+   57  git remote -v
+   58  git remote add https://github.com/sehun0919/Branch-Repository1.git
+   59  git remote -v
+   60  git remote add Branch-Repository1 https://github.com/ilikecyberpunk/n-Repository1.git
+   61  git remote -v
+   62  git checkout -b newbranch
+   63  git branch
+   64  cd ./newbranch
+   65  git add 새파알
+   66  git push
+   67  nano newbranch
+   68  ls
+   69  git add newbranch
+   70  git commit -m "committied by kimtaeho"
+   71  git push
+   72  git push origin newbranch
+   73  git status
+   74  git push origin newbranch
+   75  git remote add origin https://github.com/ilikecyberpunk/n-Repository1.git
+   76  git push
+   77  git push --set-upstream origin newbranch
+   78  cd c:
+   79  mkdir nnn
+   80  cd nnn
+   81  ls
+   82  git init
+   83  git clone https://github.com/ilikecyberpunk/n-yeo.git
+   84  git remote add yeo https://github.com/ilikecyberpunk/n-yeo.git
+   85  git remote -v
+   86  ls
+   87  n -yeo
+   88  cd n-yeo
+   89  git remote add yeo https://github.com/ilikecyberpunk/n-yeo.git
+   90  ls
+   91  git remote -v
+   92  git checkout -b newbr
+   93  ls
+   94  git branch
+   95  nano
+   96  git add tt
+   97  ls
+   98  git add t
+   99  git commit -m "committed by taeho"
+  100  git push
+  101  git push --set-upstream origin newbr
+  102  git push
+  103  cd c:
+  104  mkdir dustin
+  105  mkdir ilikeh
+  106  cd c:/ilikeh
+  107  git clone https://github.com/ilikecyberpunk/asd0.git
+  108  ls
+  109  cd asd0
+  110  ls
+  111  git remote add https://github.com/ilikecyberpunk/asd0.git
+  112  git remote add asd https://github.com/ilikecyberpunk/asd0.git
+  113  git remote -v
+  114  nano
+  115  git checkout -b bbb
+  116  git branch
+  117  nano
+  118  git add sry
+  119  git commit -m "committed by kimtaeho"
+  120  git push
+  121  git push --set-upstream origin bbb
+  122  git push
+  123  cd c:
+  124  mkdir gitstudy2
+  125  ls -t
+  126  pwd
+  127  cd ./gitstudy2
+  128  pwd
+  129  git status
+  130  git init
+  131  ls -a
+  132  git config --global user.name "ilikecyberpunk"
+  133  git config --list
+  134  git config --global core.editer"code [--wait]"
+  135  git config --global core.editor"code[--wait]"
+  136  git config --global core.editor "code [--wait]"
+  137  code
+  138  git config --global core.editor "nano [--wait]"
+  139  ls -al
+  140  git config --system core.editor
+  141  git config --system core.editor "nano [--wait]"
+  142  git config --global core.editor
+  143  pwd
+  144  git config --global user.name "ilikecyberpunk"
+  145  nano
+  146  ls
+  147  git commit -a
+  148  git commit -a yes
+  149  git add yes
+  150  git commit -a
+  151  git branch
+  152  git remote add origin https://github.com/ilikecyberpunk/git_study2.git
+  153  git push
+  154  git add . && git commit -m "hi"
+  155  git commit -am "hi"
+  156  git status
+  157  git reset --soft yes
+  158  git reset --soft HEAD
+  159  git commit
+  160  git status
+  161  git add ㅛㄷㄴ
+  162  git add yes
+  163  git commit
+  164  ls
+  165  git log
+  166  git log --graph --decorate --all
+  167  git remote add origin https://github.com/ilikecyberpunk/git_study2.git
+  168  git remote -v
+  169  git remote -v
+  170  git push
+  171  git push -u origin master
+  172  git log --online -n1
+  173  git log --oneline -n1
+  174  git pull
+  175  cd c:/Linuxstudy
+  176  pwd
+  177  git clone https://github.com/ilikecyberpunk/heeee.git 치킨
+  178  cd ./치킨
+  179  ls
+  180  nano
+  181  git add 치킨
+  182  git add XDDD
+  183  git commit -m "perfect days"
+  184  git push -u origin master
+  185  git config --global https://github.com/ilikecyberpunk/heeee.git
+  186  git remote -v
+  187  git push
+  188  pwd
+  189  git checkout 치킨
+  190  rm -rf .git
+  191  cd c:
+  192  mkdir 깃허브스터디
+  193  ls -t
+  194  cd ./깃허브스터디
+  195  git init
+  196  git status
+  197  git config --global user.name "ilikecyberpunk"
+  198  git status
+  199  git config --local core.editor "vim [--wait]"
+  200  git config --local core.editor "nano [--wait]"
+  201  git config --global core.editor
+  202  ls
+  203  ls -a
+  204  ls -l
+  205  nano
+  206  git add gamsa
+  207  git commit -m "wanna make game"
+  208  git push -u gamsa master
+  209  git push -set--upstream origin master
+  210  git push --set-upstream origin master
+  211  git push
+  212  git remote add origin https://github.com/ilikecyberpunk/GAME.git
+  213  git push
+  214  git push --set-upstream origin master
+  215  git pull
+  216  pwd
+  217  rm -r 깃허브스터디
+  218  rm -r 깃허브스터디
+  219  git checkout 깃허브스터디
+  220  cd ..
+  221  ls
+  222  rm -r 깃허브스터디
+  223  ls -t
+  224  cat 깃허브스터디
+  225  ls
+  226  cd c:/
+  227  list
+  228  ls
+  229  ls -al
+  230  ls
+  231  cd ./LinuxStudy
+  232  ls
+  233  cat like.py
+  234  sprt cat
+  235  sort like.txt
+  236  sort like.py
+  237  sort -n like.py
+  238  sort -r like.py
+  239  sort -u like.py
+  240  sort -rnu like.py
+  241  uniq like.py
+  242  nano
+  243  uniq n
+  244  uniq -c n
+  245  sort like.py | uniq -c
+  246  sort like.py | uniq -c | sort -rnu
+  247  sort like.py | uniq -c | sort -n
+  248  wc like.py
+  249  wc -l like.py
+  250  wc -w like.py
+  251  wc -c like.py
+  252  cut -d 'f' -f 3 like.py | uniq -c
+  253  cut -d ',' -f 2,4,5 like.py
+  254  cat like.py | tr 너 G
+  255  cat like.py | tr a-z A-Z
+  256  cat like.py | tr a-z G
+  257  cat like.py | tr -d a-z
+  258  cat like.py | tr -d "\n"
+  259  head -n 2 like.py
+  260  tail -n 12 like.py
+  261  nl like.py
+  262  paste like.py like2.py
+  263  sed 's/너/shit/g' like.py
+  264  diff like.py like2.py
+  265  nl like.py
+  266  ls -al
+  267  ls -al | grep 'txt'
+  268  ls -al | grep '.py'
+  269  ls -al | grep -n 'py'
+  270  ls -al
+  271  grep 'f.r' like.py
+  272  ls -al | grep '[p.y]'
+  273  grep '[^for]' like.py
+  274  grep '[^지]' like.py
+  275  ls -al | grep '.py'
+  276  ls -al | grep '.txt'
+  277  ls -al | grep 'py$'
+  278  ls -al | grep '^$'
+  279  ls
+  280  grep -E '(py){1,3}' like.py
+  281  ls -al | grep -E '(.py){1,3}'
+  282  ls -al | grep -E '(.p){*}'
+  283  ls -al
+  284  ls -al | grep '.txt'
+  285  ls -al | sort | grep '.txt'
+  286  ls -t
+  287  tar -cvf archive_for_like like.py like2.py
+  288  ls -t
+  289  tar -xvf archive_for_like
+  290  ls -t
+  291  vim
+  292  vim like.py
+  293  ls -al
+  294  ls -al | grep txt$
+  295  ls -t
+  296  tar -fv archive_for_like
+  297  tar -tvf archive_for_like
+  298  tar -xvf archive_for_like
+  299  tar -tvf archive_for_like
+  300  tar -xvf archive_for_like -C c:/LinuxStudy/
+  301  tar --delete --file = archive_for_like like.py
+  302  tar -cvJf archiveman main.txt
+  303  tar -xvJf archiveman -C c:/LinuxStudy/
+  304  gzip -v9 main.txt
+  305  gunzip main.txt
+  306  gzip -d main.txt
+  307  cd c:
+  308  cd ./Users
+  309  cd ./ASUS/Desktop/1학년 2학기/객체지향프로그래밍/
+  310  cd ./ASUS
+  311  ls
+  312  cd ./바탕화면
+  313  cd ./Desktop
+  314  ls
+  315  cd ./'1학년 2학기'
+  316  ls
+  317  cd ./'객체지향 프로그래밍'
+  318  ls
+  319  cd ./'객체지향 WorkSpace'
+  320  ls
+  321  cd ./'2학기 클래스'
+  322  ls
+  323  nano practice.exe*
+  324  ls -al
+  325  ls -al | sort -n | uniq -c
+  326  cd c:
+  327  mkdir ilikecyberpunkcd c:
+  328  cd ./ilikecyberpunkmkdir ilikecyberpunkcd c:
+  329  git intit
+  330  git init
+  331  git intit
+  332  ls
+  333  cd c:/ilikecyberpunkls
+  334  cd ./ilikecyberpunkcd
+  335  git init
+  336  git config --global user.name"ilikecyberpunk"
+  337  git config ==global core.editor "nano[--wait]"
+  338  git config --global core.editor "nano[--wait]"
+  339  ls
+  340  git pull
+  341  git pull for-fun- master
+  342  git pull https://github.com/ilikecyberpunk/for-fun-.git
+  343  ls
+  344  nano 계산기.ipynb
+  345  검색어에따른구글뉴스검색결과긁어오기.py
+  346  nano 검색어에따른구글뉴스검색결과긁어오기.py
+  347  git add 검색어에따른구글뉴스검색결과긁어고기.py
+  348  git commit
+  349  git add 검색어에따른구글뉴스검색결과긁어오기.pt
+  350  git add 검색어에따른구글뉴스검색결과긁어오기.py
+  351  git commit
+  352  cd c:
+  353  ls
+  354  ls -t
+  355  cd c:/ilikecyberpunkcd
+  356  ls
+  357  git pull
+  358  git init
+  359  git pull
+  360  git pull https://github.com/ilikecyberpunk/for-fun-.git master
+  361  git pull https://github.com/ilikecyberpunk/for-fun-.git
+  362  git commit
+  363  cd c:/
+  364  cd ./Users/ASUS/OneDrive/문서/카카오톡 받은 파일
+  365  ls
+  366  ./Users
+  367  cd ./Users
+  368  cd ./ASUS/OneDrive
+  369  cd ./문서/카카오톡 받은 파일
+  370  cd ./문서
+  371  ls
+  372  cd ./카카오톡 받은 파일
+  373  cd C:\Users\ASUS\Desktop\1학년 2학기\오픈소스SW기초\새 폴더\half_life_3
+  374  cd c
+  375  cd c/
+  376  cd C:/Users
+  377  cd ./ASUS/Desktop
+  378  cd ./1학년 2학기/오픈소스 SW기초
+  379  cd ./1학년 2학기
+  380  cd ./1학년 2학기
+  381  ls
+  382  mv 1학년 2학기 1학년2학기
+  383  cd ./1학년2학기
+  384  cd ./1학년 2학기
+  385  help pwd
+  386  help ls
+  387  help --ls
+  388  ls --help
+  389  pwd
+  390  ls .
+  391  ls
+  392  cd C:
+  393  cd ./LinuxPractice
+  394  ls
+  395  mkdir folder1
+  396  mkdir folder2 folder3
+  397  ls
+  398  ls -l
+  399  ls -a
+  400  ls -alt
+  401  ls -t
+  402  mkdir folder4
+  403  rm folder4
+  404  rm -r folder4
+  405  ls
+  406  bash
+  407  nano
+  408  ls
+  409  cp 엄 엄2
+  410  ls
+  411  ls -a
+  412  ls -alt
+  413  cd c:/LinuxPractice
+  414  ls
+  415  mv 엄 엄1
+  416  ls
+  417  file 엄
+  418  cat 엄
+  419  nano 엄
+  420  cat 엄1
+  421  less 엄1
+  422  touch 엄3
+  423  ls
+  424  ls --help
+  425  vim 엄3
+  426  cat 엄3
+  427  vim 엄3
+  428  cat 엄3
+  429  vim 엄3
+  430  ls
+  431  nano
+  432  ls
+  433  cat 허캠.py
+  434  vim 허캠.py
+  435  vim 허캠.py
+  436  nano 허캠.py
+  437  nano 허캠.py
+  438  ls
+  439  nano 허캠.py
+  440  cp 허캠.py 엄4
+  441  ls
+  442  sort -n 엄4
+  443  sort 엄4
+  444  sort -rn 엄4
+  445  sort -u 엄4
+  446  vim 엄4
+  447  sort 엄4
+  448  sort -u 엄4
+  449  sort 엄4 | uniq
+  450  sort 엄4 | uniq -c
+  451  cd c:/LinuxPractice
+  452  ls
+  453  sort 엄4 | uniq -c | sort -rn
+  454  wc 엄4
+  455  wc -l 엄4
+  456  wc -w 엄4
+  457  wc -c 엄4
+  458  cut -d 'def' -f 4 엄4
+  459  cat 엄4 | tr a-z A-Z
+  460  cat 엄4 | tr a-z F
+  461  cat 엄4 | tr def DAMN
+  462  head -n 10 엄4
+  463  nl 엄4
+  464  vim 엄4
+  465  sed 's/def/엄/g' 엄4
+  466  sed -i 's/def/엄/g' 엄4
+  467  sed -i 's/엄/def/g' 엄4
+  468  diff 엄4 허캠.py
+  469  sed -i 's/def/엄/g' 엄4
+  470  diff 엄4 허캠.py
+  471  diff -u 엄4 허캠.py
+  472  cd c:/LinuxPractice
+  473  ls
+  474  ls -al
+  475  cat 엄4 | uniq -c
+  476  grep -E '(def|엄){3,}' 엄4
+  477  vim 엄4
+  478  sed 's\엄\def\g' 엄4
+  479  vim 엄4
+  480  ls -al | grep '^엄'
+  481  ls
+  482  ls -al | grep '^folder'
+  483  ls -al | sort -nl
+  484  help sort
+  485  sort --help
+  486  ls -al | sort -n
+  487  ls -al | sort -rk | grep '.py$'
+  488  ls -al | sort -r | grep '.py$'
+  489  tar -cvf 엄guys.tar 엄1 엄2 엄3 엄엄엄3 엄4
+  490  ls
+  491  cat 엄guys.tar
+  492  tar -tvt 엄guys.tar
+  493  tar -tvf 엄guys.tar
+  494  vim 엄1
+  495  tar -uvf 엄guys.tar 엄1
+  496  tar -tvf 엄guys.tar
+  497  tar --delete --file=엄guys.tar 엄1
+  498  tar -tvf 엄guys.tar
+  499  tar -xvf 엄guys.tar
+  500  ls
+  501  cd c:
+  502  ls -alh
+  503  cd ./LinuxPractice
+  504  ls -al
+  505  ls -al | sort -n
+  506  python3 허캠.py
+  507  pwd
+  508  ls
+  509  mkdir home
+  510  cd ./home
+  511  ls -al
+  512  mkdir testdir
+  513  ls
+  514  touch hello.txt
+  515  vim hello.txt
+  516  cat hello.txt
+  517  mv hello.txt bye.txt
+  518  ls
+  519  rm -r testdir
+  520  ls
+  521  cd ../
+  522  ls
+  523  vim 엄4
+  524  ls -alh
+  525  head -n 15 허캠.py
+  526  head -n 50 허캠.py
+  527  grep 'def' 허캠.py
+  528  grep '^def' 허캠.py | uniq -c
+  529  history
+  530  ps
+  531  top
+  532  ps aus
+  533  ls -alh | uniq -c | sort
+  534  history
